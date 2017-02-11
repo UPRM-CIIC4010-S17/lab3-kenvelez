@@ -71,6 +71,5 @@ public class MyPanelClass extends JPanel {
         g.drawPolygon(p2);
         
         
-        
 	}
 }
