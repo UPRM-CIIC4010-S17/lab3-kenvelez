@@ -100,6 +100,5 @@ public class MyPanelClass extends JPanel {
         g.fillPolygon(p2);
        
         
-        
 	}
 }
