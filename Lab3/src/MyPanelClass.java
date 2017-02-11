@@ -34,5 +34,6 @@ public class MyPanelClass extends JPanel {
         g.setColor(Color.CYAN);
         g.drawRect(x1 +6, y1 +6, width -12, height -12);
         
+        
 	}
 }
