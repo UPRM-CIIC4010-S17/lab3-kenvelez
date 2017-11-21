@@ -24,8 +24,8 @@ public class MyPanelClass extends JPanel {
                         int height = y2 - y1;
  
                         //Paint the background
-                        g.setColor(Color.BLUE);
-                        g.fillRect(x1, y1, width+1, height+1);
+                        //g.setColor(Color.BLUE);
+                        //g.fillRect(x1, y1, width+1, height+1);
                         //Draw a border
 //                        g.setColor(Color.YELLOW);
 //                        g.drawRect(x1, y1, width, height);
@@ -48,6 +48,22 @@ public class MyPanelClass extends JPanel {
 //                        p.addPoint(x1 + 15, y1 + 25);
 //                        g.setColor(Color.YELLOW);
 //                        g.fillPolygon(p);
+                        
+                        
+                        g.setColor(Color.RED);
+                        g.fillRect(x1 + 10, y1 + 10, width - 20, height - 20);
+                        g.setColor(Color.WHITE);
+                        g.fillRect(x1 + 10, y1 + 35, x1 + 164, y1 + 30);
+                        g.setColor(Color.WHITE);
+                        g.fillRect(x1 + 10, y1 + 95, x1 + 164, y1 + 30);
+                        
+                        
+                        Polygon p3 = new Polygon();
+                        p3.addPoint(x1 + 10, y1 + 10);
+                        p3.addPoint(x1 + 100, y1 + 80);
+                        p3.addPoint(x1 + 10, y1 + 150);
+                        g.setColor(Color.BLUE);
+                        g.fillPolygon(p3);
                         
                         Polygon p2 = new Polygon();
                         p2.addPoint(x1 + 25, y1 + 73);
