@@ -50,6 +50,7 @@ public class MyPanelClass extends JPanel {
 //                        g.fillPolygon(p);
                         
                         
+                        //Puertorrican flag 
                         g.setColor(Color.RED);
                         g.fillRect(x1 + 10, y1 + 10, width - 20, height - 20);
                         g.setColor(Color.WHITE);
